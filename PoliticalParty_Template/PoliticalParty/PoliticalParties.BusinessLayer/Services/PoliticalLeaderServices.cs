@@ -23,26 +23,31 @@ namespace PoliticalParties.BusinessLayer.Services
 
         public async Task<PoliticalLeader> FindPoliticalLeaderById(long politicalLeaderId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
         public async Task<IEnumerable<PoliticalLeader>> ListAllPoliticalLeader()
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
         public async Task<IEnumerable<PoliticalLeader>> PoliticalLeadersByPoliticalPartyId(long politicalPartyId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
         public async Task<PoliticalLeader> Register(PoliticalLeader politicalLeader)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
         public async Task<PoliticalLeader> UpdatePoliticalLeader(RegisterPoliticalLeaderViewModel model)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
     }

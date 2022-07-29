@@ -34,6 +34,7 @@ namespace PoliticalParties.Controllers
         //[ValidateAntiForgeryToken]
         public async Task<IActionResult> Register([FromBody] RegisterPoliticalLeaderViewModel model)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
 
         }
@@ -47,6 +48,7 @@ namespace PoliticalParties.Controllers
         [Route("leaders")]
         public async Task<IActionResult> UpdatePoliticalLeader([FromBody] RegisterPoliticalLeaderViewModel model)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
@@ -60,6 +62,7 @@ namespace PoliticalParties.Controllers
         [Route("leaders/{politicalLeaderId}")]
         public async Task<IActionResult> DeletePoliticalLeader(long politicalLeaderId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
@@ -72,6 +75,7 @@ namespace PoliticalParties.Controllers
         [Route("leaders/{politicalLeaderId}")]
         public async Task<IActionResult> GetPoliticalLeaderById(long politicalLeaderId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
@@ -83,6 +87,7 @@ namespace PoliticalParties.Controllers
         [Route("leaders")]
         public async Task<IEnumerable<PoliticalLeader>> ListAllPoliticalLeaders()
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
@@ -94,6 +99,7 @@ namespace PoliticalParties.Controllers
         [Route("leaders/by-party-id/{politicalPartyId}")]
         public async Task<IEnumerable<PoliticalLeader>> GetPoliticalLeaderByPoliticalPartyId(long politicalPartyId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
         #endregion

@@ -34,6 +34,7 @@ namespace PoliticalParties.Controllers
         //[ValidateAntiForgeryToken]
         public async Task<IActionResult> Register([FromBody] RegisterDevelopmentViewModel model)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
@@ -46,6 +47,7 @@ namespace PoliticalParties.Controllers
         [Route("developments")]
         public async Task<IActionResult> UpdateDevelopment([FromBody] RegisterDevelopmentViewModel model)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
@@ -59,6 +61,7 @@ namespace PoliticalParties.Controllers
         [Route("developments/{developmentId}")]
         public async Task<IActionResult> DeleteDevelopment(long developmentId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
@@ -71,6 +74,7 @@ namespace PoliticalParties.Controllers
         [Route("developments/{developmentId}")]
         public async Task<IActionResult> GetDevelopmentById(long developmentId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
@@ -82,6 +86,7 @@ namespace PoliticalParties.Controllers
         [Route("developments")]
         public async Task<IEnumerable<Development>> ListAllDevelopments()
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
@@ -93,6 +98,7 @@ namespace PoliticalParties.Controllers
         [Route("leaders/by-leader-id/{politicalLeaderId}")]
         public async Task<IEnumerable<Development>> DevelopmentPlansByPoliticalLeaderId(long politicalLeaderId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
         #endregion
