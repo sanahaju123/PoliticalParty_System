@@ -11,7 +11,6 @@ using System.Threading.Tasks;
 
 namespace PoliticalParties.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
     public class DevelopmentController : ControllerBase
     {
