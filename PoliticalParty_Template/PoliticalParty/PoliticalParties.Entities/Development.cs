@@ -10,8 +10,6 @@ namespace PoliticalParties.Entities
 {
     public class Development
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long DevelopmentId { get; set; }
         public string Title { get; set; }
         public string Activity { get; set; }

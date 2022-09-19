@@ -10,8 +10,6 @@ namespace PoliticalParties.Entities
 {
     public class PoliticalLeader
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long PoliticalLeaderId { get; set; }
         public string CandidateName { get; set; }
         public string StateName { get; set; }
